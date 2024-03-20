@@ -23,6 +23,7 @@ else:
 suffix = nric[8:].upper()
 list_suffixvalid1 = ('J', 'Z', 'I','H', 'G', 'F', 'E', 'D', 'C', 'B', 'A')
 list_suffixvalid2 = ('X', 'W', 'U', 'T', 'R', 'Q', 'P', 'N','M', 'L', 'K')
+weights_table = ['2', '7', '6', '5', '4', '3', '2']
 if len(suffix) != 1:
   print('invalid_nric')
 elif suffix.isalpha() == list_suffixvalid1 or list_suffixvalid2:
@@ -30,5 +31,5 @@ elif suffix.isalpha() == list_suffixvalid1 or list_suffixvalid2:
 else:
   print ('invalid_nric')
 
-invalid_nric = "NRIC is invalid."
-valid_nric = "NRIC is valid."
+invalid_nric = print("NRIC is invalid.")
+valid_nric = print("NRIC is valid.")
